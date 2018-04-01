@@ -47,8 +47,10 @@ If you’re installing this extension on your server make sure you have **sudo**
 
 7. Add the OCI8 extension to our php.ini files
 	```bash
-		echo "extension = oci8.so" >> /usr/local/php/php.ini
+	echo "extension = oci8.so" >> /usr/local/php/php.ini
 	```
 	if you are not sure about php.ini path use the following command to find the path
-		`locate php.ini`
+	```bash
+	locate php.ini
+	```
 8. Now we just need to restart our Apache server.
