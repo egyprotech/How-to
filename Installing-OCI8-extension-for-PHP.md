@@ -39,8 +39,8 @@ If you’re installing this extension on your server make sure you have **sudo**
 	```
 6. Install Additional packages required for Oracle Instant Client.
 	```bash
-		sudo yum install php-pear php5-dev build-essential libaio1
-		pecl install oci8-2.0.10
+	sudo yum install php-pear php5-dev build-essential libaio1
+	pecl install oci8-2.0.10
 	```
 	The above command will ask for the Oracle instant client library path, it should be
 	`instantclient,/opt/oracle/instantclient_12_2`
